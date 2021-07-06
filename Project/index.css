@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header{
+    background-color: rgb(0, 0, 0);
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    position:fixed;
+}
+.header_section{
+    height: 120px;
+    width: 23%;
+    /* background-color: green; */
+    color:white;
+    text-align:center;
+    line-height:120px;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    font-weight:bold;
+}
+.header_section_two{
+    height:120px;
+    width: 40%;
+    /* background-color: blue; */
+    justify-content: flex-end;
+}
+.header_section_three{
+    width: 30%;
+    height:120px;
+    /* background-color:grey; */
+    display: flex;
+    text-align:center;
+    line-height:120px;
+    color:white;
+    font-size:15px;
+    font-family: segoe UI;
+    cursor: pointer;
+    
+}
+.nav_item{
+    width: 25%;
+    height:120px;
+
+    /* background-color:orange; */
+}
+.nav_item:hover{
+    background-color:white;
+    color:black;
+}
+.content{
+    background-image: url('https://www.talkesport.com/wp-content/uploads/battlegrounds-mobile-india.jpg');
+    background-repeat: no-repeat;
+    height: 1000px;
+    max-width:100%;
+    background-size: cover;
+    display: flex;
+    justify-content:flex-end;
+}
+.content_section{
+    height: 150px;
+    width:20%;
+    background-color: #FF8C00;
+    margin-top: 170px;
+    margin-right: 60px;
+    color:white;
+    text-align:center;
+    line-height:150px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: segoe UI;
+    cursor: pointer;
+    
+}
+
+.content_section:hover{
+    background-color:white;
+    color:#FF8C00;
+}
+.iframe{
+    display: flex;
+    justify-content:center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.content_two{
+    background-image: url('https://staticg.sportskeeda.com/editor/2021/05/0303b-16215059978405-800.jpg');
+    background-repeat: no-repeat;
+    height: 950px;
+    max-width:100%;
+    background-size: cover;
+    display: flex;
+    justify-content:flex-end;
+    margin-top:80px;
+    margin-bottom: 80px;
+}
+.content_two_header{
+    height:100px;
+    width: 100%;
+    color:black;
+    font-size:50px;
+    font-family: segoe UI;
+    font-weight: bold;
+    display: flex;
+    justify-content:center;
+}
+.sm{
+    /* background-color: black; */
+    height:60px;
+    width: 100%;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content:center;
+    /* background-color: black; */
+}
+.sm_content{
+    height: 60px;
+    width:12%;
+    display: flex;
+    justify-content:space-evenly;
+    justify-content:flex-end;
+    /* background-color: white; */
+}
+.sm_one{
+    margin: 5px;
+    justify-content:flex-end;
+    cursor: pointer;
+}
+.sm_two{
+    margin: 5px;
+    justify-content:flex-end;
+    cursor: pointer;
+}
+.sm_three{
+    margin:5px;
+    justify-content:flex-end;
+    cursor: pointer;
+}
+.sm_text{
+    width:20%;
+    height:60px;
+    color:black;
+    font-size:50px;
+    font-family: segoe UI;
+    font-weight: bold;
+    text-align:left;
+}
+
+
+
+
+
+
+
+
